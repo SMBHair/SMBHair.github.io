@@ -4,29 +4,49 @@
     <title>University of Massachusetts Amherst Science Olympiad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,300b,500,800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<div class="cover">
-    <div class="bg"></div>
+<!-- Top Navigation Menu -->
 
-    <ul class="nav">
-        <li class="pad"></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#tournament-info">Tournament</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="volunteer.html">Volunteer</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+<div class="cover">
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="#tournament-info">Tournament</a>
+        <a href="register.html">Register</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    
+    <div class="bg"></div>
 
     <span class="cv-title">
         <div class="logo"></div>
         <span class="date-loc">
             <div>Amherst, MA</div>
-            <div class="divider">|</div>
-            <div>January 83rd, 2044</div>
+            <div>January 69rd, 2044</div>
         </span>
         <span class="cv-buttons">
             <div><a href="register.html">Register</a></div>
