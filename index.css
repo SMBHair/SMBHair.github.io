@@ -29,7 +29,7 @@ div.cover .bg {
     width: 100%;
     height: 100%;
     
-    background-image: url("https://wallpaperaccess.com/full/1625191.jpg");
+    background-image: url("https://wallpaperaccess.com/full/1625191.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,13 +90,15 @@ div.cover .cv-title {
     font-size: 0;
 }
 
+
+
 div.cover .logo {
     position: relative;
     display: inline-block;
     width: 100%;
     height: 200px;
 
-    background-image: url("temp-logo.png");
+    background-image: url("logo-color.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
